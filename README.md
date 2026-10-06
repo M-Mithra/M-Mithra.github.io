@@ -47,6 +47,29 @@ All asset paths are relative (`base: './'` in `vite.config.js`), so the same bui
 | Photos | `src/assets/photos/`, wired up in `src/photos.js` |
 | Colors, spacing, layout | `src/styles.css` |
 
+### Analytics
+
+The site can send analytics to Google Analytics 4 (GA4). Analytics are disabled until a measurement ID is configured; no analytics numbers are displayed on the site.
+
+1. Create a GA4 property and web data stream, then copy its measurement ID (`G-...`).
+2. In the GitHub repository, open **Settings → Secrets and variables → Actions → Variables**, create `VITE_GA_MEASUREMENT_ID`, and set its value to the measurement ID. The ID is public configuration, not a secret. The deployment workflow uses it when building the site.
+3. To test locally, set `VITE_GA_MEASUREMENT_ID=G-...` in the environment before running `npm run dev` or `npm run build`.
+
+GA4 records the initial page view and these events:
+
+| Event | What it counts |
+| --- | --- |
+| `link_click` | All clicked hyperlinks |
+| `internal_link_click` | Clicks on links within this site |
+| `external_link_click` | Clicks on other web links |
+| `email_click` | Clicks on email links |
+| `phone_click` | Clicks on phone links |
+| `whatsapp_click` | Clicks on WhatsApp links |
+
+In GA4, use **Reports → Realtime** for current activity and **Reports → Engagement → Events** to compare event counts and users per event. GA4's unique-user figures identify browsers/devices, not verified individual people; clearing browser storage or using another device can count the same person again. Reports may take time to fully process. Contact link addresses themselves are not sent as event parameters.
+
+Before enabling analytics, disclose the use of Google Analytics to visitors and meet any consent or privacy requirements that apply to your audience.
+
 ### Festival banner
 
 Each entry in `FESTIVALS` has `showFrom`, `start` and `end` dates (`YYYY-MM-DD`). The banner and ticker appear from `showFrom`, count down to `start`, show "Day k of n" during the festival, and disappear after `end`. When several are live, the earliest one is shown in the banner. Add a new entry for each upcoming festival.
