@@ -22,7 +22,7 @@ name1: 'Medavarapu Viswamithra', name2: 'Atchutha Rama Murthy',
 heroLine: 'From a purohit family of Sri Manikyamba Sametha Sri Bheemeswara Swamy Temple, Draksharamam. Learning puja, path and Smartham since childhood.',
 aboutTitle: 'Rooted in tradition, practised with discipline',
 aboutP1: 'My father is a purohit, and what I learned from my late maternal grandfather in childhood remains my foundation. I do puja and parayanam at home regularly, and perform abhishekam and puja at the temple, both for myself and on behalf of others. Through college, I also led pujas for students and families.',
-eduLabel: 'Education', eduOrg: 'IIT Kharagpur', eduLines: ['B.Tech, Electronics', 'M.Tech, Computer Vision & Artificial Intelligence'], eduMeta: 'Dual degree · 2021-2026',
+eduLabel: 'Education', eduOrg: 'IIT Kharagpur', eduLines: ['B.Tech, E&ECE', 'M.Tech, Vision and Intelligent Systems'], eduMeta: 'Dual degree · 2021-2026',
 expLabel: 'Experience', expOrg: 'BlackRock', expRole: 'Analyst', expMeta: 'Gurugram · June 2026 - Present',
 learnTitle: 'Learned at home, from family and elders',
 vedaBadges: ['Rigveda · Vaidika Shakha', 'Rigveda in daily practice', 'Karyakramas in both Rigveda and Yajurveda'],
@@ -88,7 +88,7 @@ learnTitle: 'నేర్పిన పెద్దలు',
 vedaBadges: ['ఋగ్వేదం · వైదిక శాఖ', 'నిత్యాభ్యాసం ఋగ్వేదం', 'ఋగ్వేద, యజుర్వేద కార్యక్రమాలు రెండూ'],
 teachers: [
 { tag: 'ఆరేళ్ళ ప్రాయం నుండి', title: 'కీ.శే. మా తాతగారు', name: 'కురుమేటి నాగసూర్య బ్రహ్మన్న గారు', body: 'అమ్మ వైపు తాతగారు. నాకు చిన్నప్పటి నుండి గణపతి పూజ, స్తోత్రాలు, తారాబలం అన్నీ వారే నేర్పించారు.' },
-{ tag: 'ఇంటి సంప్రదాయం', title: 'మా నాన్నగారు', name: 'మేడవరపు శ్రీనివాస చింతామణి గారు', body: 'ద్రాక్షారామంలో పురోహితులు. వారితో పాటు కార్యక్రమాలకు వెళ్తూ, ఏ కార్యం ఎలా జరిపించాలో దగ్గరుండి చూసి పూజా విధానం నేర్చుకున్నాను.' }
+{ tag: 'ఇంటి సంప్రదాయం', title: 'మా నాన్నగారు', name: 'మేడవరపు శ్రీనివాస చింతామణి గారు', body: 'ద్రాక్షారామంలో పురోహితులు. వారితో పాటు కార్యక్రమాలకు వెళ్తూ, ఏ కార్యక్రమము ఎలా జరిపించాలో దగ్గరుండి చూసి పూజా విధానం నేర్చుకున్నాను.' }
 ],
 scholars: {
 tag: 'వేద పండితుల వద్ద', title: 'సూక్తాలు, మంత్రాలు', body: 'వేద పండితుల వద్ద అభ్యసించినవి:',
