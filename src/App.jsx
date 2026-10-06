@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { SHLOKAS, T } from './content.js';
 import { getFestival } from './festival.js';
+import { startAnalytics } from './analytics.js';
 import Header from './sections/Header.jsx';
 import { FestivalBanner, Ticker } from './sections/Festival.jsx';
 import Hero from './sections/Hero.jsx';
@@ -37,6 +38,8 @@ export default function App() {
       // ignore
     }
   }, [lang]);
+
+  useEffect(() => startAnalytics(), []);
 
   return (
     <div className="page" lang={lang}>
